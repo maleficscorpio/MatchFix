@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MATCH FiX</title>
+</head>
+<!--                        -->
+<body>
+
+    <section class="showcase">
+        <header>
+            <h2 class="logo">M A T C H &nbsp; F i X</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="media/main.mp4" muted loop autoplay ></video>
+
+        
+            <div class="text">
+                <h2>Dating Guide</h2>
+                <h3>Don't Hold it back</h3>
+                <p>Are you single and looking for love? <br> When you're having trouble making connection, it's all too easy to become discouraged or buy into the destructive myths out there about dating and relationships.</p>
+                <a href="#">Learn More</a>
+            </div>
+        
+        <ul class="social">
+            <li><a href="#"><img src="media/facebook.png"></a></li>
+            <li><a href="#"><img src="media/instagram.png"></a></li>
+            <li><a href="#"><img src="media/twitter.png"></a></li>
+        </ul>
+    
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+</script>
+
+
+
+    
+</body>
+</html>
